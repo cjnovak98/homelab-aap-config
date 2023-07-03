@@ -1,0 +1,12 @@
+---
+controller_organizations_all:
+  - name: config_as_code
+    description: Config as Code Stuffs
+    galaxy_credentials:
+      - Ansible Galaxy
+      - Automation Hub
+    # default_environment: supported
+
+  - name: Default
+    state: absent
+...

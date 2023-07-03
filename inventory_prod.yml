@@ -1,0 +1,25 @@
+---
+all:
+  children:
+    prod:
+      hosts:
+        127.0.0.1:
+      vars:
+        connection: local
+        controller_configuration_enforce_defaults: false
+    automationcontroller:
+      hosts:
+        aap-hybrid.novak.com:
+
+                #    automationhub:
+                #      hosts:
+
+
+    # only needed if installing AAP with automation, can be removed if you are not
+    database:
+      hosts:
+        aap-hybrid.novak.com:
+
+  vars:
+    env: prod
+...
