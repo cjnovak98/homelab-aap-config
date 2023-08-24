@@ -6,7 +6,6 @@ all:
         127.0.0.1:
       vars:
         connection: local
-        controller_configuration_enforce_defaults: false
     automationcontroller:
       hosts:
         aap-hybrid.novak.com:
